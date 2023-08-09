@@ -35,4 +35,4 @@ const loop = setInterval(() => {
 
 }, 10);
 
-document.addEventListener('keydown', 'onClick', jump);
+document.addEventListener('keydown', 'ontouchstart', jump);
